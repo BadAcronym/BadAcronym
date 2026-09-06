@@ -3,11 +3,14 @@
 C developer with a focus on games, game engines and development tooling.
 
 Cross-platform below means windows/linux support, mac not guaranteed. It wouldn't take
-much to add in the future, but I don't own a mac.
+much to add in the future, but I don't own a mac, so I can't compile & test for it.
 
 "No dependencies" refers to no outside library dependencies that aren't bundled with the
 Operating System (this means no `stb`, `raylib`, `SDL`, `glfw`, etc). If those words are
 mentioned, the code in the `/vendor/` subfolders has been (and will always be) my own.
+
+In addition, there is no "build system", besides a shell script that calls the compiler
+(`bash`/`pwsh`).
 
 Notable projects:
 
