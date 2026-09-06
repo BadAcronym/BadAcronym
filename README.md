@@ -20,6 +20,8 @@ engine.
 dependencies map editor written in (and used for) the river2D engine.
 + [imgsurf](https://github.com/badacronym/imgsurf): an image loader that supports all
 kinds of lossless formats.
++ [datasurf](https://github.com/badacronym/datasurf): a library for data compression &
+decompression, used in imgsurf for PNG zlib image data, for example.
 + [puddle](https://github.com/badacronym/puddle): useful extensions to any C project
 (think length-based strings, dynamic arrays, etc)
 + [gitfluss](https://github.com/badacronym/gitfluss): a visually appealing and flexible
